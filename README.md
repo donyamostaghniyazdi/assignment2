@@ -146,29 +146,6 @@ Then, in another terminal, initialize ``finite_state_machine`` node using this c
 $ rosrun assignment2 finite_state_machine.py
 ```
 
-Here is the result for the first state while the robot scans the markers:
-
-<p align="center">
-<img src="">
-</p>
-
-Once the robot builds the semantic map, it would move to target room as it is shown below:
-
-<p align="center">
-<img src="">
-</p>
-
-When it reaches the target, the state will change to explore room:
-
-<p align="center">
-<img src="">
-</p>
-
-While the robot moves to target, if the battery gets lower than threshold, it will move to charger:
-
-<p align="center">
-<img src="">
-</p>
 
 ## Working Hypothesis and Environment
 
