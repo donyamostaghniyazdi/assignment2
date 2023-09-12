@@ -7,7 +7,8 @@ This package is an experiment to use a topological map ontology for controling a
 with multiple rooms and a mobile robot. You can get to know more about the detatils of the source code using the 
 [documentation](https://github.com/donyamostaghniyazdi/assignment1) provided for this rospackage.
 
-![topological_map](https://github.com/donyamostaghniyazdi/assignment2/assets/80056149/3ce9f170-25c5-4180-923e-6b25f7df777c)
+
+![267398077-3ce9f170-25c5-4180-923e-6b25f7df777c](https://github.com/donyamostaghniyazdi/assignment2/assets/80056149/71998397-ca23-4fc5-aca6-02807b69a62e)
 
 
 The robot starts in room E and by scanning the provided markers, it receives the information to build the semantic map, i.e., the name and center 
