@@ -27,9 +27,8 @@ scanning and patrolling behaviors, is shown in the following figures:
 ## Software Architecture
 The software architucture is represented in the following figure.
 
-<p align="center">
-<img src="">
-</p>
+![sf-assign2](https://github.com/donyamostaghniyazdi/assignment2/assets/80056149/deb24285-33f3-46f4-a515-d96cd4d801cd)
+
 
 The components of this software architucture can be described as follows:
 
@@ -37,9 +36,6 @@ The components of this software architucture can be described as follows:
 The robot URDF in this package consists of a mobile base link provided with two cylindrical wheels, caster front and a manipulator with 5dof.
 This robot uses a laser scanner to detect the obstacles, and a camera for scanning the provided markers.
 
-<p align="center">
-<img src="">
-</p>
 
 ### robot-state
 In order to simulate the states of the robot and its stimulus, the approach presented in the [arch_skeleton](https://github.com/buoncubi/arch_skeleton)
@@ -75,9 +71,6 @@ machine of the robot behaviour. It is implemented using the method presented in 
 It also uses ``topological_map.py`` helper script which is based on [aRMOR](https://github.com/EmaroLab/armor)
 to update the ontology while the process is running.
 
-<p align="center">
-<img src="">
-</p>
 
 ### armor_service
 It is used for manipulating the ontology and getting information in a query throgh ``finite_state_machine`` node.
@@ -91,9 +84,8 @@ for enabling ``robot-states`` node to simulate battery consumption and target ro
 node to find the path and move the robot base. Once the robot gets to target position ``base_movement_state`` gets false
 and robot starts exploring the room like the beginning of the sequence. 
 
-<p align="center">
-<img src="">
-</p>
+![temp_assign2](https://github.com/donyamostaghniyazdi/assignment2/assets/80056149/76988c56-22dd-49d0-9f18-03db743a09cf)
+
 
 ## Usage
 ### Installation
