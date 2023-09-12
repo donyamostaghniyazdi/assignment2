@@ -7,9 +7,8 @@ This package is an experiment to use a topological map ontology for controling a
 with multiple rooms and a mobile robot. You can get to know more about the detatils of the source code using the 
 [documentation](https://github.com/donyamostaghniyazdi/assignment1) provided for this rospackage.
 
-<p align="center">
-<img src="">
-</p>
+![topological_map](https://github.com/donyamostaghniyazdi/assignment2/assets/80056149/3ce9f170-25c5-4180-923e-6b25f7df777c)
+
 
 The robot starts in room E and by scanning the provided markers, it receives the information to build the semantic map, i.e., the name and center 
 position of each room and the connections between them.
@@ -24,13 +23,6 @@ When the robot battery is low, it goes to the charger which is placed in room E,
 The simulation software in this package is gazebo. The environment in which the robot should implement the 
 scanning and patrolling behaviors, is shown in the following figures:
 
-<p align="center">
-<img src="">
-</p>
-
-<p align="center">
-<img src="">
-</p>
 
 ## Software Architecture
 The software architucture is represented in the following figure.
