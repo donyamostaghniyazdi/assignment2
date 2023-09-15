@@ -6,6 +6,6 @@ moveit_setup_assistant_config:
   SRDF:
     relative_path: config/m2wr.srdf
   CONFIG:
-    author_name: Ali Yousefi
-    author_email: aliyuosefi98@outlook.com
+    author_name: Donya.mostaghniyazdi 
+    author_email: donya.mostaghni01@gmail.com 
     generated_timestamp: 1671010258
