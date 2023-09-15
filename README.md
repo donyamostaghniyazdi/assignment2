@@ -66,7 +66,7 @@ base link to move through the found path.
 It uses robot laser scanner data along with robot base frame position in order to find robot in the map.
 Since there is map file provided in this package, it generates the map in an online manner.
 
-### finite state machin 
+### finite state machine
 The main part of software architucture, defines the states and transitions for the finite state
 machine of the robot behaviour. It is implemented using the method presented in [smach](http://wiki.ros.org/smach)
 It also uses ``topological_map.py`` helper script which is based on [aRMOR](https://github.com/EmaroLab/armor)
@@ -94,6 +94,8 @@ and robot starts exploring the room like the beginning of the sequence.
 in the provided link as a pre-condition for running this package.
 
 * It is also depended on [smach](http://wiki.ros.org/smach), it can be installed using the following commands:
+
+*inside the document folder there are my_moveit and aruco_ros folders ,take them out before running the project or give a new path 
 
 ```bashscript
 $ sudo apt-get install ros-<distro>-executive-smach*
